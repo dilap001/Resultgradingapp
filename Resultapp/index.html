@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+       
+
+
+
+        <div id="con2">
+
+
+            <h3 id="timedisplay" style="position: absolute; margin-top: 2.5%; margin-left: 52%; font-size: 15px; color: black;"></h3>
+            
+            <h6 id="timedispl" style="position: absolute; margin-top: 2%; margin-left: 3%; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 15px; color: green"></h6>
+
+            <h4 id="timedisply" style="position: absolute; font-weight: normal; font-size: 15px; margin-top: 2.3%; margin-left: 68%; color: black;"></h4>
+
+
+            <img src="images/header-logo1.png" alt="logo" style="position: absolute; margin-top: 10%; margin-left: 30%;">
+            <!-- <h2 style="position: absolute; margin-left: 25%; font-family: Arial; color: green; font-size: 30px;">WETIN DEY ACADEMY </h2> -->
+
+            <p style="position: absolute; margin-top: 26%; margin-left: 22%; font-weight: bold;">
+                Candidates Name: 
+                <!-- <h2 name="dnam1" id="dnam1" style="position: absolute; margin-top:14%; margin-left: 53%; font-size: 20px; font-family: 'Times New Roman'; font-weight: normal;"></h2> -->
+
+            </p> <input type="text" name="namev" id="namev" readonly  style="width: 220px; position: absolute; margin-top: 25%; font-size: 20px; color: green; font-family: 'Times New Roman'; font-weight: normal; margin-left: 53%" oninput="fnamee()">
+
+
+            <p style="position: absolute; margin-top: 34%; margin-left: 41%; font-weight: bold;">
+                Class: 
+                <!-- <h2 name="dnam1" id="dnam1" style="position: absolute; margin-top:14%; margin-left: 53%; font-size: 20px; font-family: 'Times New Roman'; font-weight: normal;"></h2> -->
+
+            </p> <input type="text" name="classlist" id="classlist" readonly  style="width: 150px; position: absolute; margin-top: 33%; font-size: 20px; color: green; font-family: 'Times New Roman'; font-weight: normal; margin-left: 53%" oninput="myclass()">
+
+
+            <h3 style="color: green; position: absolute; margin-top: 43%; margin-left: 41%;">e-Result</h3>
+
+
+            <div id="allsub">
+
+            
+                <p style="position: absolute; font-size: 18px; color: green; margin-top: 4%; margin-left: 3%; font-weight: bold;">
+                SUBJECTS 
+                </p>
+                        <input type="text" name="fsubject" id="fsubject" readonly  style="width: 170px; position: absolute; margin-top: 15%; font-size: 16px; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; border: 0px; margin-left: 3%" oninput="sub1()">
+
+                        <input type="text" name="fsubject1" id="fsubject1" readonly  style="width: 170px; position: absolute; margin-top: 22%; font-size: 16px; color: rgb(83, 85, 83); border: 0px; font-family: 'Times New Roman'; font-weight: normal; margin-left: 3%" oninput="sub2()">
+
+                        <input type="text" name="fsubject2" id="fsubject2" readonly  style="width: 170px; position: absolute; margin-top: 29%; font-size: 16px; color: rgb(83, 85, 83); border: 0px; font-family: 'Times New Roman'; font-weight: normal; margin-left: 3%" oninput="sub3()">
+
+                        <input type="text" name="fsubject3" id="fsubject3" readonly  style="width: 170px; position: absolute; margin-top: 36.5%; font-size: 16px; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; border: 0px; margin-left: 3%" oninput="sub4()">
+
+                        <input type="text" name="fsubject4" id="fsubject4" readonly  style="width: 170px; position: absolute; margin-top: 43.8%; font-size: 16px; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; border: 0px; margin-left: 3%" oninput="sub5()">
+
+
+                        <input type="text" name="fsubject5" id="fsubject5" readonly  style="width: 170px; position: absolute; margin-top: 51.5%; font-size: 16px; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; border: 0px; margin-left: 3%" oninput="sub6()">
+
+
+                <p style="position: absolute; font-size: 18px; color: green; margin-top: 4%; margin-left: 37%; font-weight: bold;">
+                MARK 
+                </p>
+
+                        <input type="number" name="fmark" id="fmark" readonly  style="width: 50px; position: absolute; margin-top: 15%; font-size: 16px; color: rgb(83, 85, 83); text-align: center; font-family: 'Times New Roman'; font-weight: normal; margin-left: 35.5%;" oninput="finput()">
+
+                        <input type="number" name="fmark1" id="fmark1" readonly  style="width: 50px; position: absolute; margin-top: 22%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 35.5%;" oninput="finput1()">
+
+                        <input type="number" name="fmark2" id="fmark2" readonly  style="width: 50px; position: absolute; margin-top: 29%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 35.5%;" oninput="finput2()">
+
+                        <input type="number" name="fmark3" id="fmark3" readonly  style="width: 50px; position: absolute; margin-top: 36.5%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 35.5%;" oninput="finput3()">
+
+                        <input type="number" name="fmark4" id="fmark4" readonly  style="width: 50px; position: absolute; margin-top: 43.8%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left:35.5%;" oninput="finput4()">
+
+                        <input type="number" name="fmark5" id="fmark5" readonly  style="width: 50px; position: absolute; margin-top: 51.5%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 35.5%;" oninput="finput5()">
+
+
+
+                <p style="position: absolute; font-size: 18px; color: green; margin-top: 4%; margin-left: 56%; font-weight: bold;">
+                GRADES
+                </p>
+
+                        <input type="text" name="fgrade" id="fgrade" readonly  style="width: 50px; position: absolute; margin-top: 15%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 57%;" onchange="finput()">
+
+                        <input type="text" name="sgrade" id="sgrade" readonly  style="width: 50px; position: absolute; margin-top: 22%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 57%;" onchange="finput1()">
+
+                        <input type="text" name="tgrade" id="tgrade" readonly  style="width: 50px; position: absolute; margin-top: 29%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 57%;" onchange="finput2()">
+
+                        <input type="text" name="ffgrade" id="ffgrade" readonly  style="width: 50px; position: absolute; margin-top: 36.5%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 57%;" onchange="finput3()">
+
+                        <input type="text" name="ffsgrade" id="ffsgrade" readonly  style="width: 50px; position: absolute; margin-top: 43.8%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 57%;" onchange="finput4()">
+
+                        <input type="text" name="ffssgrade" id="ffssgrade" readonly  style="width: 50px; position: absolute; margin-top: 51.5%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 57%;" onchange="finput5()">
+
+                <p style="position: absolute; font-size: 18px; color: green; margin-top: 4%; margin-left: 80%; font-weight: bold;">REMARKS
+                </p>
+            
+                    <input type="text" name="fremark" id="fremark" readonly  style="width: 70px; border: 0px; position: absolute; margin-top: 15%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 80.5%;" onchange="finput()">
+            
+                    <input type="text" name="sremark" id="sremark" readonly  style="width: 70px; position: absolute; margin-top: 22%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 80.5%; border: 0px;" onchange="finput1()">
+            
+                    <input type="text" name="tremark" id="tremark" readonly  style="width: 70px; position: absolute; margin-top: 29%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 80.5%; border: 0px;" onchange="finput2()">
+            
+                    <input type="text" name="ffremark" id="ffremark" readonly  style="width: 70px; position: absolute; margin-top: 36.5%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 80.5%; border: 0px;" onchange="finput3()">
+            
+                    <input type="text" name="ffsremark" id="ffsremark" readonly  style="width: 70px; position: absolute; margin-top: 43.8%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 80.5%; border: 0px;" onchange="finput4()">
+            
+                    <input type="text" name="ffssremark" id="ffssremark" readonly  style="width: 70px; position: absolute; margin-top: 51.5%; font-size: 16px; text-align: center; color: rgb(83, 85, 83); font-family: 'Times New Roman'; font-weight: normal; margin-left: 80.5%; border: 0px;" onchange="finput5()">
+
+
+
+                    <h5 style="color: green; position: absolute; margin-top: 70.5%; margin-left: 25%;">e-Result grading portal &copy; 2025</h5>        
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="con1">
+
+            <h1 style="text-align: center; color: green; font-size: 25px; position: absolute; margin-top: 5%; margin-left: 35%;">RESULT COMPLIER</h1>
+
+            <form action="">
+
+                <input type="text" name="myname" id="myname" required  style="width: 300px; position: absolute; margin-top: 12%; margin-left: 10%" placeholder="Full Name" oninput="fnamee()">
+
+                <input type="text" name="sclass" id="sclass" required  style="width: 100px; position: absolute; margin-top: 12%; margin-left: 70%" placeholder="Class" oninput="myclass()">  <br> <br> <br><br> <br> <br>
+
+                <label style="color: green; margin-left: 3%; position: absolute; margin-top: 8%; font-weight: bold; font-size: 17px;">SUBJECTS</label>
+
+
+
+
+    <!-- FIRST INPUTS -->
+                <select name="subject1" id="subject1" style="margin-top: 12.2%; position:absolute; width: 100px; height: 30px; margin-left: 2%;" onclick="sub1()">
+                    <option value="English">English</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Yoruba">Yoruba</option>
+                </select>
+
+                <label style="color: green; margin-left: 17.5%; position: absolute; margin-top: 8%; font-weight: bold; font-size: 17px;">1ST C.A</label><br>
+
+                <input type="number" name="test1" id="test1"  style="margin-top: 10%; position: absolute;  width: 80px; height: 27px; margin-left: 17%; text-align: center;"  placeholder="1st C.A"  required oninput="finput()">
+
+
+                <label style="color: green; margin-left: 31%; position: absolute; margin-top: 5.6%; font-weight: bold; font-size: 17px;">2ND C.A</label><br>
+
+                <input type="number" name="test2" id="test2"  style="margin-top: 7.5%; position: absolute; width: 80px; height: 25.4px; margin-left: 30%; text-align: center;" placeholder="2nd C.A"required oninput="finput()">
+
+
+                <label style="color: green; margin-left: 46.5%; position: absolute; margin-top: 3.2%; font-weight: bold; font-size: 17px;">EXAM</label><br>
+
+                <input type="number" name="exam" id="exam"  style="margin-top: 5.2%; position: absolute; width: 80px; height: 25.4px; margin-left: 43.5%; text-align: center;" placeholder="Exam" required oninput="finput()" >
+
+
+
+                <label style="color: green; margin-left: 59.7%; position: absolute; margin-top: 1%; font-weight: bold; font-size: 17px;">TOTAL</label><br>
+
+                <input type="number" name="total" id="total" style="margin-top: 2.8%; position: absolute; width: 80px; height: 25.4px; margin-left: 57.2%; text-align: center;"  placeholder="Total" readonly oninput="finput()">
+
+
+                <label style="color: green; margin-left: 82%; position: absolute; margin-top: -1.3%; font-weight: bold; font-size: 17px;">GRADE</label><br>
+
+                <input type="text" name="grade" id="grade"  style="margin-top: 0.5%; width: 80px; position: absolute; height: 25.4px; margin-left: 80%; text-align: center;" placeholder="Grade"readonly oninput="finput()"> <br>
+
+
+
+          <!-- SECOND INPUTS -->
+                <select name="subject2" id="subject2" style="margin-top: 5%; position:absolute; width: 100px; height: 30px; margin-left: 2%;" onclick="sub2()">
+                    <option value="English">English</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Yoruba">Yoruba</option>
+                </select>
+
+
+                <input type="number" name="testt" id="testt"  style="margin-top: 5%; position: absolute;  width: 80px; height: 27px; margin-left: 17%; text-align: center;"  placeholder="1st C.A"  required oninput="finput1()">
+
+
+                <input type="number" name="test3" id="test3"  style="margin-top: 5%; position: absolute; width: 80px; height: 25.4px; margin-left: 30%; text-align: center;" placeholder="2nd C.A"required oninput="finput1()">
+
+
+                <input type="number" name="exam1" id="exam1"  style="margin-top: 5%; position: absolute; width: 80px; height: 25.4px; margin-left: 43.5%; text-align: center;" placeholder="Exam" required oninput="finput1()" >
+
+
+                <input type="number" name="total1" id="total1"  style="margin-top: 5%; position: absolute; width: 80px; height: 25.4px; margin-left: 57.2%; text-align: center;"  placeholder="Total" readonly oninput="finput1()">
+
+
+
+                <input type="text" name="grade1" id="grade1"  style="margin-top: 5%; width: 80px; position: absolute; height: 25.4px; margin-left: 80%; text-align: center;" placeholder="Grade"readonly oninput="finput1()"> 
+
+                
+
+        <!-- THIRD INPUTS -->
+
+        <select name="subject3" id="subject3" style="margin-top: 12%; position:absolute; width: 100px; height: 30px; margin-left: 2%;" onclick="sub3()">
+            <option value="English">English</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="Biology">Biology</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Yoruba">Yoruba</option>
+        </select>
+
+
+        <input type="number" name="testtt" id="testtt"  style="margin-top: 12%; position: absolute;  width: 80px; height: 27px; margin-left: 17%; text-align: center;"  placeholder="1st C.A"  required oninput="finput2()">
+
+
+        <input type="number" name="test4" id="test4"  style="margin-top: 12%; position: absolute; width: 80px; height: 25.4px; margin-left: 30%; text-align: center;" placeholder="2nd C.A"required oninput="finput2()">
+
+
+        <input type="number" name="exam2" id="exam2"  style="margin-top: 12%; position: absolute; width: 80px; height: 25.4px; margin-left: 43.5%; text-align: center;" placeholder="Exam" required oninput="finput2()" >
+
+
+        <input type="number" name="total2" id="total2"  style="margin-top: 12%; position: absolute; width: 80px; height: 25.4px; margin-left: 57.2%; text-align: center;"  placeholder="Total" readonly oninput="finput2()">
+
+
+
+        <input type="text" name="grade2" id="grade2"  style="margin-top: 12%; width: 80px; position: absolute; height: 25.4px; margin-left: 80%; text-align: center;" placeholder="Grade"readonly oninput="finput2()"> 
+
+
+
+        <!-- FOURTH INPUTS -->
+
+        <select name="subject4" id="subject4" style="margin-top: 18.8%; position:absolute; width: 100px; height: 30px; margin-left: 2%;" onclick="sub4()">
+            <option value="English">English</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="Biology">Biology</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Yoruba">Yoruba</option>
+        </select>
+
+
+        <input type="number" name="testttt" id="testttt"  style="margin-top: 18.8%; position: absolute;  width: 80px; height: 27px; margin-left: 17%; text-align: center;"  placeholder="1st C.A"  required oninput="finput3()">
+
+
+        <input type="number" name="test5" id="test5"  style="margin-top: 18.8%; position: absolute; width: 80px; height: 25.4px; margin-left: 30%; text-align: center;" placeholder="2nd C.A"required oninput="finput3()">
+
+
+        <input type="number" name="exam3" id="exam3"  style="margin-top: 18.8%; position: absolute; width: 80px; height: 25.4px; margin-left: 43.5%; text-align: center;" placeholder="Exam" required oninput="finput3()" >
+
+
+        <input type="number" name="total3" id="total3"  style="margin-top: 18.8%; position: absolute; width: 80px; height: 25.4px; margin-left: 57.2%; text-align: center;"  placeholder="Total" readonly oninput="finput3()">
+
+
+
+        <input type="text" name="grade3" id="grade3"  style="margin-top: 18.8%; width: 80px; position: absolute; height: 25.4px; margin-left: 80%; text-align: center;" placeholder="Grade"readonly oninput="finput3()"> 
+
+
+
+
+        <!-- FIFTH INPUTS -->
+
+        <select name="subject5" id="subject5" style="margin-top: 25.7%; position:absolute; width: 100px; height: 30px; margin-left: 2%;" onclick="sub5()">
+            <option value="English">English</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="Biology">Biology</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Yoruba">Yoruba</option>
+        </select>
+
+
+        <input type="number" name="testtttt" id="testtttt"  style="margin-top: 25.7%; position: absolute;  width: 80px; height: 27px; margin-left: 17%; text-align: center;"  placeholder="1st C.A"  required oninput="finput4()">
+
+
+        <input type="number" name="test6" id="test6"  style="margin-top: 25.7%; position: absolute; width: 80px; height: 25.4px; margin-left: 30%; text-align: center;" placeholder="2nd C.A"required oninput="finput4()">
+
+
+        <input type="number" name="exam4" id="exam4"  style="margin-top: 25.7%; position: absolute; width: 80px; height: 25.4px; margin-left: 43.5%; text-align: center;" placeholder="Exam" required oninput="finput4()" >
+
+
+        <input type="number" name="total4" id="total4"  style="margin-top: 25.7%; position: absolute; width: 80px; height: 25.4px; margin-left: 57.2%; text-align: center;"  placeholder="Total" readonly oninput="finput4()">
+
+
+
+        <input type="text" name="grade4" id="grade4"  style="margin-top: 25.7%; width: 80px; position: absolute; height: 25.4px; margin-left: 80%; text-align: center;" placeholder="Grade"readonly oninput="finput4()"> 
+
+
+
+
+<!-- SIXTH INPUTS -->
+
+<select name="subject6" id="subject6" style="margin-top: 32.5%; position:absolute; width: 100px; height: 30px; margin-left: 2%;" onclick="sub6()">
+    <option value="English">English</option>
+    <option value="Mathematics">Mathematics</option>
+    <option value="Physics">Physics</option>
+    <option value="Biology">Biology</option>
+    <option value="Chemistry">Chemistry</option>
+    <option value="Yoruba">Yoruba</option>
+</select>
+
+
+<input type="number" name="testttttt" id="testttttt"  style="margin-top: 32.5%; position: absolute;  width: 80px; height: 27px; margin-left: 17%; text-align: center;"  placeholder="1st C.A"  required oninput="finput5()">
+
+
+<input type="number" name="test7" id="test7"  style="margin-top: 32.5%; position: absolute; width: 80px; height: 25.4px; margin-left: 30%; text-align: center;" placeholder="2nd C.A"required oninput="finput5()">
+
+
+<input type="number" name="exam5" id="exam5"  style="margin-top: 32.5%; position: absolute; width: 80px; height: 25.4px; margin-left: 43.5%; text-align: center;" placeholder="Exam" required oninput="finput5()" >
+
+
+<input type="number" name="total5" id="total5"  style="margin-top: 32.5%; position: absolute; width: 80px; height: 25.4px; margin-left: 57.2%; text-align: center;"  placeholder="Total" readonly oninput="finput5()">
+
+
+
+<input type="text" name="grade5" id="grade5"  style="margin-top: 32.5%; width: 80px; position: absolute; height: 25.4px; margin-left: 80%; text-align: center;" placeholder="Grade"readonly oninput="finput5()"> 
+
+
+
+            </form>
+
+            <script src="script.js"></script>
+
+            <script>
+
+                   
+               
+                    
+                  
+            
+    
+            </script>
+                
+
+                
+
+
+
+
+        </div>
+
+
+        
+
+      
+
+
+    </div>
+    
+</body>
+</html>

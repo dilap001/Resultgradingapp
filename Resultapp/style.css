@@ -1,0 +1,73 @@
+body{
+
+    top:0;
+    left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-image: url('images/study-knowledge-academics-institute-graphic_53876-124507.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+.container{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    /* background-image: url('images/bak1.jpg'); */
+    background-size: cover;
+    left: 0;
+    top: 0;
+    /* background-image: url('images/schbuilding.jpg'); */
+}
+
+#con1{
+
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    border: 1px;
+    border-color: green;
+    border-style: dashed;
+    
+    /* opacity: 40%; */
+    /* border-radius: 5%; */
+    left: 0;
+    top: 0;
+    background-image: url('images/modern-abstract-white-minimal-background_84443-8335.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#con2{
+
+    width: 40%;
+    height: 100%;
+    margin-left: 60%;
+    position: absolute;
+    border-color: black;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    background-image: url('images/white-abstract-background-3d-paper-style_23-2148402787.jpg');
+    /* background-position-x: -40% ; */
+     /* background-size: cover; */
+
+}
+
+#allsub{
+
+    border: 1.5px;
+    border-style: dotted;
+    position: absolute;
+    /* background-color: blue; */
+    border-color: green;
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+    margin-top: 49%;
+    margin-left: 5%;
+
+}
